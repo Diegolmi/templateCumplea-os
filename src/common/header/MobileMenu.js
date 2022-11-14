@@ -35,7 +35,7 @@ const MobileMenu = ({show, onClose}) => {
                         <span className="close-button" onClick={onClose}><FiX /></span>
                     </div>
                 </div>
-                <Nav />
+                {/* <Nav /> */}
             </div>
         </div>
     )

@@ -38,9 +38,9 @@ const HeaderTwo = ({btnStyle, HeaderSTyle}) => {
                                     image={logo}
                                     // image2={`${process.env.PUBLIC_URL}/images/logo/logo-dark.png`}
                                 /> */}
-                                <nav className="mainmenu-nav d-none d-lg-block">
+                                {/* <nav className="mainmenu-nav d-none d-lg-block">
                                     <Nav />
-                                </nav>
+                                </nav> */}
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-8">
