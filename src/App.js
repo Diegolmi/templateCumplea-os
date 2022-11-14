@@ -26,7 +26,7 @@ import { Route, Routes } from "react-router-dom";
 // import CategoryList from "./pages/CategoryList";
 // import TagList from "./pages/TagList";
 // import Author from "./pages/Author";
-import AboutUs from "./pages/AboutUs";
+// import AboutUs from "./pages/AboutUs";
 
 // Elements import Here
 
@@ -36,14 +36,14 @@ import AboutUs from "./pages/AboutUs";
 // import CounterUp from "./elements/counterup/CounterUp";
 // import Progressbar from "./elements/progressbar/Progressbar";
 
-import Portfolio from "./elements/portfolio/Portfolio";
+// import Portfolio from "./elements/portfolio/Portfolio";
 // import portfolioThreeColumn from "./elements/portfolio/PortfolioThreeColumn";
 // import PortfolioFullWidth from "./elements/portfolio/PortfolioFullWidth";
 // import PortfolioGrid from "./elements/portfolio/PortfolioGrid";
 // import PortfolioBoxLayout from "./elements/portfolio/PortfolioBoxLayout";
-import PortfolioDetails from "./pages/PortfolioDetails";
+// import PortfolioDetails from "./pages/PortfolioDetails";
 // import Social from "./elements/social/Social";
-import Team from "./elements/team/Team";
+// import Team from "./elements/team/Team";
 // import Timeline from "./elements/timeline/Timeline";
 // import Testimonial from "./elements/testimonial/Testimonial";
 // import RnAccordion from "./elements/accordion/RnAccordion";
@@ -53,18 +53,18 @@ import Team from "./elements/team/Team";
 // import CalltoAction from "./elements/calltoaction/CalltoAction";
 // import Video from "./elements/video/Video";
 // import Gallery from "./elements/gallery/Gallery";
-import Contact from "./elements/contact/Contact";
+// import Contact from "./elements/contact/Contact";
 // import Brand from "./elements/brand/Brand";
 // import AdvanceTab from "./elements/advancetab/AdvanceTab";
 // import AdvancePricing from "./elements/advancePricing/AdvancePricing";
 
-import BlogGridView from "../src/components/blog/BlogGridView";
+// import BlogGridView from "../src/components/blog/BlogGridView";
 // "./elements/blog/BlogGridView";
-import BlogListView from "../src/components/blog/BlogListView";
+// import BlogListView from "../src/components/blog/BlogListView";
 // import BlogGridSidebar from "./elements/blog/BlogGridSidebar";
 // import BlogListSidebar from "./elements/blog/BlogListSidebar";
-import BlogDetails from "./pages/BlogDetails";
-import Error from "./pages/Error";
+// import BlogDetails from "./pages/BlogDetails";
+// import Error from "./pages/Error";
 
 // Import Css Here
 import "./assets/scss/style.scss";
@@ -72,7 +72,7 @@ import "./assets/scss/style.scss";
 const App = () => {
   return (
     <Routes>
-      <Route
+      {/* <Route
         path={`${process.env.PUBLIC_URL + "/menu"}`}
         exact
         element={<BlogGridView />}
@@ -86,7 +86,7 @@ const App = () => {
         path={`${process.env.PUBLIC_URL + "/blog-grid"}`}
         exact
         element={<BlogListView />}
-      />
+      /> */}
       {/* <Route path={`${process.env.PUBLIC_URL + "/"}`} exact element={Splash}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting"}`} exact element={HomeDefault}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact element={BusinessConsulting2}/>
@@ -140,7 +140,7 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/brand"}`} exact element={Brand}/>
                     <Route path={`${process.env.PUBLIC_URL + "/advance-tab"}`} exact element={AdvanceTab}/>
                 <Route path={`${process.env.PUBLIC_URL + "/advance-pricing"}`} exact element={AdvancePricing}/> */}
-      <Route
+      {/* <Route
         path={`${process.env.PUBLIC_URL + "/preguntas-frecuentes"}`}
         exact
         element={<AboutUs />}
@@ -165,8 +165,8 @@ const App = () => {
       <Route
         path={`${process.env.PUBLIC_URL + "/portfolio"}`}
         exact
-        element={<Portfolio />}
-      />
+        element={<Portfolio />} */}
+      {/* /> */}
       {/* <Route
         path={`${process.env.PUBLIC_URL + "/portfolio-three-column"}`}
         exact
@@ -187,11 +187,11 @@ const App = () => {
         exact
         element={<PortfolioBoxLayout />}
       /> */}
-      <Route
+      {/* <Route
         path={`${process.env.PUBLIC_URL + "/portfolio-details/:id"}`}
         exact
         element={<PortfolioDetails />}
-      />
+      /> */}
     </Routes>
   );
 };

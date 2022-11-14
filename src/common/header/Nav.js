@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <>
-    <h2>Cumple Delfi</h2>
+    <h3>Cumple Delfi</h3>
     
     </>
     // <ul className="mainmenu">
